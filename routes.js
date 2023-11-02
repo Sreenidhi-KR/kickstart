@@ -1,8 +1,8 @@
 const routes = require("next-routes")();
 
 routes
-  .add("/student/new", "/student/new")
-  .add("/student/:address", "/student/show")
+  .add("/student", "/student/new")
+  .add("/student/:address", "/student")
   .add("/institute/:address", "/institute/add");
 
 module.exports = routes;

@@ -4,7 +4,7 @@ import TranscriptFactory from "./build/TranscriptFactory.json";
 
 const instance = new web3.eth.Contract(
   JSON.parse(TranscriptFactory.interface),
-  "0x1e07c52D1304BF41fb4AB14581Cf03C3412282A8"
+  "0x6aF034F2f68C6428891a7E30275a557d10723919"
 );
 
 export default instance;

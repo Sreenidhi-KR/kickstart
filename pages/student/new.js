@@ -31,7 +31,7 @@ class StudentNew extends Component {
         from: accounts[0],
         gas: gasEstimate,
         data: encode,
-        to: "0x1e07c52D1304BF41fb4AB14581Cf03C3412282A8",
+        to: "0x6aF034F2f68C6428891a7E30275a557d10723919",
       });
 
       // await factory.methods.createTranscript().send({
